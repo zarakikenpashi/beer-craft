@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <link rel="preload" href="https://www.duvelmoortgat.com/fonts/acuminprowide-light-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.duvelmoortgat.com/fonts/acuminprowide-regular-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.duvelmoortgat.com/fonts/acuminprowide-medium-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.duvelmoortgat.com/fonts/acuminprowide-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.duvelmoortgat.com/fonts/GT-Sectra-Fine-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.duvelmoortgat.com/fonts/GT-Sectra-Fine-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.duvelmoortgat.com/images/duvel-moortgat-logo-black.svg" as="image">
+    <link rel="preload" href="https://www.duvelmoortgat.com/images/duvel-moortgat-logo-white.svg" as="image">
+</head>
+<body class="with-hero-image">
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            <h1 class="header__logo-text sr-only">Duvel Moortgat</h1>
+            <div class="header__logo-svg"></div>
+        </a>
+    
+        <div class="header__language-picker">
+            <div class="language-picker">
+                <button class="language-picker__button" aria-expanded="false">
+                    <svg class="icon globe" focusable="false" tabindex="-1" aria-hidden="true" role="presentation"><use xlink:href="https://www.duvelmoortgat.com/dist/assets/icons-sprite.svg?id=fba74996df67bc786d301865e39129b4#sprite-globe"></use></svg>
+                    <span class="language-picker__language">English</span>
+                    <svg class="icon caret" focusable="false" tabindex="-1" aria-hidden="true" role="presentation"><use xlink:href="https://www.duvelmoortgat.com/dist/assets/icons-sprite.svg?id=fba74996df67bc786d301865e39129b4#sprite-caret"></use></svg>
+                </button>
+    
+                <div class="language-picker__dropdown">
+                    <p class="language-picker__label">Choose your language</p>
+    
+                    <ul class="language-picker__list" aria-hidden="true">
+                        <li>
+                            <a class="language-picker__link language-picker__link--active" href="home.html" lang="en-US" hreflang="en-US">English</a>
+                        </li>
+                                                                        
+                        <li>
+                            <a class="language-picker__link" href="https://www.duvelmoortgat.com/nl/home" lang="nl-BE" hreflang="nl-BE">Nederlands</a>
+                        </li>
+                                                                    
+                        <li>
+                            <a class="language-picker__link" href="https://www.duvelmoortgat.com/fr/home" lang="fr-BE" hreflang="fr-BE">Français</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <nav class="header__navigation" role="navigation">
+            <button id="menuToggle" class="header__mobile-menu-button mobile-menu-toggle" aria-expanded="false" aria-controls="menu">
+                <span class="mobile-menu-toggle__label" data-label-open="Menu" data-label-close="Close">Menu</span>
+                <span class="mobile-menu-toggle__icon">
+                    <span class="mobile-menu-toggle__icon-inner"></span>
+                </span>
+            </button>
+    
+            <div id="menu" class="header__navigation-lists">
+                <ul id="mainMenu" class="header__navigation-list header__navigation-list--6">
+                    <li class="header__navigation-item">
+                        <a  href="who-we-are.html">Who we are</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a  href="brands.html">Brands</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a  href="breweries.html">Breweries</a>
+                    </li>
+                    <li class="header__navigation-item header__navigation-item--has-children">
+                        <a  href="sustainability.html">Sustainability</a>
+                        <div class="header__subnavigation">
+                            <ul class="header__subnavigation__list">
+                                <li class="header__subnavigation__item">                                                     
+                                    <a  href="sustainability/water.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/Headers/_navigationWebp/24374/sustainability_duvelmoortgat_water_header_2023-09-22-121617_mzec.webp" alt="" class="header__subnavigation__image">
+                                        <span>Water</span>
+                                    </a>
+                                </li>
+                                <li class="header__subnavigation__item">                                                 
+                                    <a  href="sustainability/carbonfootprint.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/Headers/_navigationWebp/24708/sustainability_duvelmoortgat_carbonfootprint_header.webp" alt="" class="header__subnavigation__image">
+                                        <span>Carbon footprint</span>
+                                    </a>
+                                </li>
+                                <li class="header__subnavigation__item">                
+                                    <a  href="sustainability/zerowaste.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/Headers/_navigationWebp/24814/sustainability_duvelmoortgat_zerowaste_header.webp" alt="" class="header__subnavigation__image">
+                                        <span>Zero waste</span>
+                                    </a>
+                                </li>
+                                <li class="header__subnavigation__item">
+                                                                                            
+                                    <a  href="sustainability/responsible-enjoyment.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/Headers/_navigationWebp/24896/sustainability_duvelmoortgat_enjoyresponsibily_header.webp" alt="" class="header__subnavigation__image">
+                                        <span>Responsible enjoyment</span>
+                                    </a>
+                                </li>
+                                <li class="header__subnavigation__item">                                                 
+                                    <a  href="sustainability/community-engagement.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/Headers/_navigationWebp/25102/sustainability_duvelmoortgat_communityengagement_header.webp" alt="" class="header__subnavigation__image">
+                                        <span>Community</span>
+                                    </a>
+                                </li>
+                                <li class="header__subnavigation__item">                                                    
+                                    <a  href="sustainability/talent-development.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/Headers/_navigationWebp/25629/sustainability_duvelmoortgat_talenetdevelopment_header.webp" alt="" class="header__subnavigation__image">
+                                        <span>Talent</span>
+                                    </a>
+                                </li>
+                                <li class="header__subnavigation__item">                                                
+                                    <a  href="sustainability/healthy-workenvironment.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/Headers/_navigationWebp/25922/sustainability_duvelmoortgat_healthyworkenvironment_header.webp" alt="" class="header__subnavigation__image">
+                                        <span>Work environment</span>
+                                    </a>
+                                </li>
+                                <li class="header__subnavigation__item">                                                   
+                                    <a  href="sustainability/inclusion-and-diversity.html">
+                                        <img src="https://www.duvelmoortgat.com/uploads/images/Sustainability/_navigationWebp/26060/sustainability_duvelmoortgat_inclusion_olena.webp" alt="" class="header__subnavigation__image">
+                                        <span>Diversity</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="header__navigation-item">
+                        <a  href="news.html">News</a>        
+                    </li>
+                    <li class="header__navigation-item">
+                        <a  href="careers.html">Careers</a>
+                    </li>
+                </ul>
+    
+                <ul id="metaMenu" class="header__navigation-list">
+                    <li class="header__navigation-item">
+                        <a  href="contact.html">Contact</a>
+                    </li>
+                    <li class="header__navigation-item header__navigation-item--linkedin">
+                        <a href="https://www.linkedin.com/company/duvelmoortgat/" target="_blank" rel="noopener noreferrer">
+                            Follow us on LinkedIn
+                            <svg class="icon" focusable="false" tabindex="-1" aria-hidden="true" role="presentation"><use xlink:href="https://www.duvelmoortgat.com/dist/assets/icons-sprite.svg?id=fba74996df67bc786d301865e39129b4#sprite-linkedin"></use></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    </header>
+
+    <main>
+        <div class="hero-video">
+            <video autoplay disablepictureinpicture disableremoteplayback loop muted playsinline>
+                <source src="https://www.duvelmoortgat.com/uploads/images/steve.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
